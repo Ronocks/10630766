@@ -1,0 +1,352 @@
+body{
+    background-image: url(images/background.png);
+        
+    }
+    #wrapper{
+        width:1200px;
+        margin-left: auto;
+        margin-right:auto;
+        background-color:rgb(37, 35, 35);
+    }
+    header{
+        background-image: url('images/THHTitle.jpg');
+        max-width:100%;
+        max-height:100%;
+        height:500px;
+        padding-top: 0px;
+    }
+    nav {
+        overflow: hidden;
+        background-color: #2e2b2b;
+    }
+    nav li {
+        list-style-type: none;
+        display:inline-flex;
+    
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+        nav ul a {
+            float: left;
+            display: inline-block;
+            color: #f2f2f2;
+            text-align: center;
+            text-decoration: none;
+            padding: 15px 30px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    nav ul a:hover {
+        background-color:rgb(180, 108, 25);
+        color: black;
+    }
+    
+    footer{
+        background-color:rgb(37, 35, 35);
+        height:220px;
+        text-align:center;
+        color:burlywood;
+        padding: top 7px;
+        font-size: 14px;
+    }
+  
+
+    .banner{
+        background-image: url('images/banner1.png');
+        height: 400px;
+        width: 1200px;
+        animation: change 50s infinite ease-in-out;
+    }
+    
+    .banner-img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    }
+    
+    
+    @keyframes change{
+        0%
+        {
+     background-image: url('images/banner6.png');
+        }
+        20%
+        {
+     background-image: url('images/banner2.png');
+        }
+        40%
+        {
+     background-image: url('images/banner3.png');
+        }
+        60%
+        {
+     background-image: url('images/banner4.png');
+        }
+        80%
+        {
+     background-image: url('images/banner5.png');
+        }
+        100%
+        {
+     background-image: url('images/banner1.png');
+        }
+     
+    }
+    p{
+        color: bisque;
+    }
+    h1{
+        color: bisque;
+    }
+    h2{
+        color: bisque;
+    }
+    h3{
+        color: bisque;
+    }
+    h4{
+        color: bisque;
+    }
+    h5{
+        font-size: 10px;
+        color: bisque;
+    }
+
+    .food {
+        display:flex;
+        align-items:center;
+        padding-left: 200px;
+      }
+      
+      .food img {
+        margin-right: 100px;
+        display:block;
+        max-width:100%;
+        max-height:100%;
+        width:170px;
+        height:100px;
+        
+    
+    }
+        
+      
+
+      .menu{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:medium;
+        background-color:black;
+        text-align: center;
+      }
+
+      .home{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:medium;
+        background-color:black;
+        text-align: center;
+      }
+
+      .welcome{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:medium;
+        background-color:#a98143;
+        text-align:center;
+      }
+
+      .indexabout {
+        border: 3px;
+        overflow: auto;
+        background-color:#2e2b2b;
+    }
+    
+    .indexaboutimg {
+        float: right;
+        width: 500px;
+        height: 400px;
+        background: #000
+    }
+    .indexabouttext {
+       text-align: center;
+    }
+
+    .menuabout {
+        border: 3px;
+        overflow: auto;
+        background-color:#1e1e1e;
+    }
+    
+    .menuaboutimg {
+        float: left;
+        width: 500px;
+        height: 400px;
+        background: #000
+    }
+    .menuabouttext {
+       text-align: center;
+    }
+
+    .about{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:medium;
+        background-color:#000;
+        text-align:center;
+    }
+
+    
+    .aboutloc {
+        border: 3px;
+        overflow: auto;
+        background-color:#292a46;
+    }
+    
+    .aboutlocimg {
+        float: left;
+        width: 500px;
+        height: 400px;
+        background: #000
+    }
+    .aboutloctext {
+       text-align: center;
+    }
+
+    .login{
+        text-align: center;
+        background-color:#000;
+    }
+    form, .content {
+        width: 50%;
+        margin: 0px auto;
+        padding: 20px;
+        border: 1px solid black;
+        background:#1e1e1e;
+        border-radius: 0px 0px 10px 10px;
+      }
+      .input-group {
+        margin: 10px 0px 10px 0px;
+      }
+      .input-group label {
+        display: block;
+        text-align: left;
+        margin: 3px;
+        color:antiquewhite;
+      }
+      .input-group input {
+        height: 30px;
+        width: 93%;
+        padding: 5px 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid gray;
+      }
+      .btn {
+        padding: 10px;
+        font-size: 15px;
+        color: white;
+        background: #776b2a;
+        border:#f2f2f2;
+        border-radius: 5px;
+      }
+    .error {
+        width: 92%; 
+        margin: 0px auto; 
+        padding: 10px; 
+        border: 1px solid #a94442; 
+        color: #a94442; 
+        background:#a94442; 
+        border-radius: 5px; 
+        text-align: left;
+      }
+      .success {
+        color: #3c763d; 
+        background:chartreuse;
+        border: 1px solid #3c763d;
+        margin-bottom: 20px;
+
+      }
+
+      .reservation{
+        background-color: #1e1e1e;
+
+      }
+    
+      .reservation label{
+     color: antiquewhite;
+     font-size: small;
+      }
+
+    
+    td{
+      font-size: small;
+      color:bisque;
+    }
+
+    .thanks{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-image: url('images/thanksbackground.jpg');
+        font-size:medium;
+        text-align:center;
+      color:bisque;
+    }
+
+    .accman{
+        text-align: center;
+    }
+      
+    .reservation{
+        text-align: center;
+    }
+
+    .loc{
+        text-align: left;
+    }
+
+    .locr {
+        border: 3px;
+        overflow:auto;
+        background-color:#4d4c4b;
+    }
+    
+    .locrmap{
+        float: right;
+        width: 500px;
+        height: 500px;
+        background: #000
+    }
+    .locrtext {
+       text-align: center;
+    }
+
+    .locl {
+        border: 3px;
+        overflow: auto;
+        background-color:#4d4c4b;
+    }
+    
+    .loclmap {
+        float: left;
+        width: 500px;
+        height: 500px;
+        background: #000
+    }
+    .locltext {
+       text-align: center;
+    }
+
+    .loclayout{
+        text-align: center;
+    }
+
+    .accman{
+        text-align: center;
+    }
+
+    .label{
+        color: antiquewhite;
+    }
+
+    .con{
+        width:140%;
+    }
+
+    
+   
